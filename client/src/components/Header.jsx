@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
-    <header className="shadow-md bg-slate-300  top-0 z-50">
+    <header className="shadow-md bg-slate-300 sticky top-0 z-50">
       <div className="flex justify-between items-center max-w-7xl mx-auto px-4 py-3 ">
         
         {/* Logo */}
@@ -18,7 +18,7 @@ export default function Header() {
         <form className="bg-gray-100 p-2 px-4 rounded-full flex items-center gap-2 shadow-inner hover:shadow-sm transition-shadow">
           <input
             type="text"
-            placeholder="Search properties..."
+            placeholder="Search ..."
             className="bg-transparent focus:outline-none w-24 sm:w-64 placeholder-gray-500 text-sm"
           />
           <FaSearch className="text-gray-500 hover:text-indigo-600 cursor-pointer" />
